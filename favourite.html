@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Hanuman' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FAVOURITE</title>
+
+    <style>
+
+.checked {
+    color:chartreuse;
+  }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">BOOKHUB</a>
+          <a class="navbar-brand" href="#">
+            <img src="https://www.hackingwithswift.com/img/ibooks_logo.png" alt="" width="25" height="28" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="px-2 nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="px-2 nav-item">
+                <a class="nav-link active" href="favourite.html">FAVOURITE</a>
+              </li>
+              <li class="px-2 nav-item">
+                <a class="nav-link" href="login50.html">SIGN IN/SIGN UP</a>
+              </li>
+              <!-- <li class="px-2 nav-item">
+                <a class="nav-link" href="register.html">JOIN</a>
+              </li> -->
+              <li class="px-2 nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  GENRE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="favourite.html#Classic" >Classic</a></li>
+                  <li><a class="dropdown-item" href="favourite.html#Tragedy">Tragedy</a></li>
+                  <li><a class="dropdown-item" href="favourite.html#Sci-fi">Sci-fi</a></li>
+                  <li><a class="dropdown-item" href="favourite.html#Fantasy">Fantasy</a></li>
+                  <li><a class="dropdown-item" href="favourite.html#Action and Adventure">Action and Adventure</a></li>
+                  <li><a class="dropdown-item" href="favourite.html#Crime and Mystery">Crime and Mystery</a></li>
+                  <li><a class="dropdown-item" href="favourite.html#Romance">Romance</a></li>
+                  <li><a class="dropdown-item" href="favourite.html#Humour and Satire">Humour and Satire</a></li>
+                  
+                </ul>
+              </li> 
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" style="width: 500px;" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+    
+    <div class="Top Picks" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">TOP PICKS</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <a href="specific.html">
+            <img style="height: 200px; width: 250px; margin-left: -2rem;margin-right: -4rem;"
+                src="https://miro.medium.com/max/1400/1*iA0nFw7o8AucT6E7JawtqA.jpeg">
+            </a>
+                <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman; " >Ikigai <br> </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;padding-top: 8px;">by Héctor García and Francesc Miralles</p>
+            <div id="rating" style="padding-left: 30px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+
+    <div class="Weekly Picks" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">WEEKLY PICKS</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+
+    <div class="Monthly Picks" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">MONTHLY PICKS</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+
+    <section id="Classic" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">CLASSIC</h2>
+           
+            
+        </div>
+         <div class="box2" >
+
+            <img style="height: 40px; "
+            src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+            
+        </div> 
+    </section>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+
+<!-- </section> -->
+
+    <section id="Tragedy" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">TRAGEDY</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+    </section>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+    <!-- </section> -->
+
+
+
+    <section id="Sci-fi" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">SCI-FI</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+    </section>
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+
+    <!-- </section> -->
+
+    <section id="Fantasy" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">FANTASY</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+    </section>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+    <!-- </section> -->
+
+
+    <section id="Action and Adventure" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">Action and Adventure</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+    </section>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+    <!-- </section> -->
+
+    <section id="Crime and Mystery" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">Crime and Mystery</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+    </section>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+
+    <!-- </section> -->
+
+    <section id="Romance" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">ROMANCE</h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+    </section>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+    <!-- </section> -->
+
+    <section id="Humour and Satire" style="display: flex; flex-direction: row; padding-top: 30px;">
+        <div class="box1" style="padding-left: 10px;">
+            <h2 style="font-family:Inter ;">HUMOUR AND SATIRE </h2>
+        </div>
+        <div class="box2">
+            <img style="height: 40px ;"
+                src="https://cdn3.iconfinder.com/data/icons/remixicon-system/24/arrow-right-s-line-256.png">
+        </div>
+    </div>
+    </section>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div class="box1">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/5155P19GPPL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Left Hand <br> of
+                 Darkness</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+    
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/71jAnvxRjuL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Slaughterhouse- <br> Five <br></p>
+            <p style="font-size: 15px; font-family: Inter;">by Kurt Vonnegut</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/51QC8X+TDyL._SX340_BO1,204,203,200_.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Phantom <br> Tollbooth</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Norton Juster</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/61mWbFZOSQL.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">America on <br> Fire</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Elizabeth Hinton</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://static01.nyt.com/images/2021/12/08/books/07BOOKGORMAN1/07BOOKGORMAN1-superJumbo-v4.png">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Call Us What <br> We Carry</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Ursula K. Le Guin</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115852/the-code-breaker-9781982115852_hr.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">The Code <br> Breaker</p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Walter Isaacson</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 200px; padding-left:20px;"
+                src="https://images-na.ssl-images-amazon.com/images/I/610XRnlh3VS.jpg">
+            <p style="font-size: 20px; font-weight: bold; text-align: center; font-family: Hanuman;">Hell of a <br> Book
+            </p>
+            <p style="font-size: 15px; font-family: Inter; text-align: center;">by Jason Mott</p>
+            <div id="rating" style="padding-left: 10px ;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
+        </div>
+       
+        <div class="box" style="padding-left: 20px ;">
+            <img style="height: 100px; padding-top:50px ; padding-left:1x;"
+                src="https://cdn2.iconfinder.com/data/icons/arrows-and-universal-actions-icon-set/256/right-256.png">
+        </div>
+    </div>
+
+    
+    <!-- </section>   -->
+
+    <br><br><br><br>
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <div class = "container" style="display: flex; max-width: none;">
+          <div class = "Box1" style="flex:1">
+            <h5 style="color:white;">About our little book site...</h5>
+            <h6 style="color:white; font-family: 'Times New Roman', Times, serif;">Our story is simple: we want to become the best destination for book recommendations 
+              in the world.</h6>
+          </div>
+          <div class = "Box2" style="flex:0.5;">
+            <h4 style="color:white; padding-left: 52% ;">Connect</h4>
+            <div>
+                <div class="d-flex" style="padding-left:43%;">
+                    <div class="flex-shrink-0">
+                      <span style="padding: 15px;">
+                        <a href="https://www.facebook.com/" style="text-decoration: none;">
+                        <img style="height: 30px;"
+                          src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-facebook_-512.png">
+                      </span></a>
+                      <a href="https://twitter.com/" style="text-decoration: none;">
+                      <span style="padding: 15px;">
+                        <img style="height: 30px;"
+                          src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-256.png">
+                      </span></a>
+                      <a href="https://www.linkedin.com/" style="text-decoration: none;">
+                      <span style="padding: 15px;">
+                        <img style="height: 30px;"
+                          src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-256.png">
+                      </span></a>
+                    </div>
+                  </div>
+            <h6 style="font-size: x-small; padding-top: 20px ; padding-left: 50% ; color: white;"> © 2022 Bookhub Inc. </h6>
+          </div>
+        </div>
+      </footer>
+      <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class = "container" style="display: flex; max-width: none;">
+          <div class = "Box1" style="flex:6">
+            <h6 style="color:white; font-size: medium; font-family: sans-serif; line-height: 10px ;">COMPANY</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">about us</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Career</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Terms</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Privacy</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Help</h6>
+          </div>
+          <div class = "Box2" style="flex:45" >
+            <h6 style="color:white; font-size: medium; font-family: sans-serif; line-height: 10px ;">WORK WITH US</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Author</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Advertise</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Author</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">API</h6>
+            <h6 style="color: white; font-size: small; font-family: sans-serif; line-height: 10px ;">Ads blogs</h6>
+          </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
